@@ -1,26 +1,22 @@
 #Assignment 2
-In this assignment you need to create a simple todo-list web application.
-You are given a REST web service that provides the following features:
+In this assignment, you need to implement a change in the dummy API.
+In /assignment2/backend you will find a REST web service, which implements a
+simple in-memory datastore, simulating a relational database.
 
-- You can create a todo entry. [POST localhost:3000/todos]
-- You can update a todo entry. [PUT localhost:3000/todos]
-- You can list all current todo entries. [GET localhost:3000/todos]
+The service currently has a naive implementation of a comment system for the
+same todo service used in the last assignment.
+You are expected to change the current implementation of comments, so that it
+becomes possible to comment on comments, as well as on todo-objects.
+You may order/arrange the comments returned by the API in any way you find
+meaningful, though a short comment explaining your choice will be considered a plus.
 
-A todo entry consists of an id, a title and a content field.
+You are required to continue work in the existing Go implementation, but may make
+any alterations you would like to it.
 
-You are expected to create a very simple web application that allows a user to
-view, create and update the todo entries, you are free to decide exactly how
-this interaction is done.
+We suspect the only file you need to work on is
+/assignment2/backend/api/comment.go, but you may alter or add files as you see
+fit.
 
-The dummy API can be found in the ./backend folder. You will have to compile
-and run it.
-If you find the API lacking in features, you may suggest improvements in a file
-called: Improvements.md. You are *not* expected to implement these improvements.
-
-You are expected to create the application as a JavaScript (or any language
-that compiles to JavaScript) SPA using any libraries or frameworks you choose.
-
-We don't expect you to implement a fully polished application no need for fancy
-styling, when you have the basic features, you should move on to the next assignment.
+You are *not* expected to do any frontend work for this assignment.
 
 //The Newsquid Dev Team.

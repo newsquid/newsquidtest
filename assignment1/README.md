@@ -12,7 +12,7 @@ You are expected to create a very simple web application that allows a user to
 view, create and update the todo entries, you are free to decide exactly how
 this interaction is done.
 
-The dummy API can be found in the ./backend folder. You will have to compile
+The dummy API can be found in the /assignment1/backend folder. You will have to compile
 and run it.
 If you find the API lacking in features, you may suggest improvements in a file
 called: Improvements.md. You are *not* expected to implement these improvements.
