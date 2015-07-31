@@ -4,7 +4,7 @@ find two assignment folders, in each folder you will find a README.md that
 describes the task at hand and some code to get you started.
 
 When you have completed both assignments, commit your code locally to this git
-repository and email an archived file of the git project to
+repository and email an archive file of the git project to
 <mailto:dev+applicant@newsquid.com>
 
 You can use however long (or little) time you wish, though we expect somewhere
