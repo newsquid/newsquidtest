@@ -5,7 +5,7 @@ import (
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/cors"
 	"github.com/newsquid/mscore"
-	"github.com/newsquid/newsquidtest/backend/api"
+	"github.com/newsquid/newsquidtest/assignment1/backend/api"
 )
 
 /*
