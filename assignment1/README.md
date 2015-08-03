@@ -20,7 +20,9 @@ called: Improvements.md. You are *not* expected to implement these improvements.
 You are expected to create the application as a JavaScript (or any language
 that compiles to JavaScript) SPA using any libraries or frameworks you choose.
 
-We don't expect you to implement a fully polished application no need for fancy
-styling, when you have the basic features, you should move on to the next assignment.
+You are *not* expected to do any backend work for this assignment.
+
+We don't expect you to implement a fully polished application no, need for fancy
+styling, when you have the basic functionality, you should move on to the next assignment.
 
 //The Newsquid Dev Team.
